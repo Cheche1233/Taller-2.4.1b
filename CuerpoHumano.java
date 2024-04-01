@@ -101,8 +101,6 @@ public class CuerpoHumano {
         System.out.println("Bombear sangre...");
     }
 
-    // Getters y setters adicionales según necesidades
-    // ...
 }
 
 // Clase Principal para la Prueba
