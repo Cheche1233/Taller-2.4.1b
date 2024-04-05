@@ -131,19 +131,6 @@ public class Bicicleta {
         this.cuadro = cuadro;
     }
 
-    // Método toString para imprimir la información de la bicicleta
-    @Override
-    public String toString() {
-        return "Bicicleta{" +
-                "modelo='" + modelo + '\'' +
-                ", color='" + color + '\'' +
-                ", tamaño=" + tamaño +
-                ", ruedaDelantera=" + ruedaDelantera +
-                ", ruedaTrasera=" + ruedaTrasera +
-                ", cuadro=" + cuadro +
-                '}';
-    }
-
     // Clase Principal para la Prueba
     public static void main(String[] args) {
         Bicicleta bicicleta = new Bicicleta("Mountain Bike", "Negro", 26);
