@@ -136,19 +136,19 @@ public class Bicicleta {
         Bicicleta bicicleta = new Bicicleta("Mountain Bike", "Negro", 26);
 
         // Configurar la rueda delantera
-        bicicleta.getRuedaDelantera().setTamaño(26);
-        bicicleta.getRuedaDelantera().setTipo("Montaña");
-        bicicleta.getRuedaDelantera().setPresión(30);
+        bicicleta.ruedaDelantera.setTamaño(26);
+        bicicleta.ruedaDelantera.setTipo("Montaña");
+        bicicleta.ruedaDelantera.setPresión(30);
 
         // Configurar la rueda trasera
-        bicicleta.getRuedaTrasera().setTamaño(26);
-        bicicleta.getRuedaTrasera().setTipo("Montaña");
-        bicicleta.getRuedaTrasera().setPresión(30);
+        bicicleta.ruedaTrasera.setTamaño(26);
+        bicicleta.ruedaTrasera.setTipo("Montaña");
+        bicicleta.ruedaTrasera.setPresión(30);
 
         // Configurar el cuadro
-        bicicleta.getCuadro().setMaterial("Aluminio");
-        bicicleta.getCuadro().setPeso(10);
-        bicicleta.getCuadro().setAltura(18);
+        bicicleta.cuadro.setMaterial("Aluminio");
+        bicicleta.cuadro.setPeso(10);
+        bicicleta.cuadro.setAltura(18);
 
         // Imprimir la información de la bicicleta
         System.out.println(bicicleta);
